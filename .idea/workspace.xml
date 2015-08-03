@@ -52,6 +52,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/first_autotest.py" />
+        <option value="$PROJECT_DIR$/second_autotest.py" />
       </list>
     </option>
   </component>
