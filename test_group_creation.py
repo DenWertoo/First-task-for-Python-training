@@ -6,7 +6,7 @@ from application import Application
 @pytest.fixture
 def app(request):
     fixture = Application()
-    request.addfinalize(fixture.destroy)
+    request.addfinalizer(fixture.destroy)
     return fixture
 
 def test_group_creation(app):
