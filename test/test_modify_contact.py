@@ -35,7 +35,7 @@ def test_modify_homephone_contact(app):
 def test_modify_mobilephone_contact(app):
     if app.contact.count() == 0:
         app.contact.create(Contact(firstname="test"))
-    app.contact.modify_contact(Contact(mobilephone="002359"))
+    app.contact.modify_contact(Contact(mobilephone="772359"))
 
 def test_modify_email_contact(app):
     if app.contact.count() == 0:
